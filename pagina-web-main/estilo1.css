@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background: url(Fondo.jpg);
+    background-size: cover;
+    background-position: top;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+    
+}
+
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #696969;
+    padding: 5px;
+    
+   }
+.logo{
+    display: flex;
+    align-items:center ;
+    
+}
+.logo img{
+    height: 70px; 
+    margin-right: 10px; 
+}
+nav a{
+    padding: 10px; 
+    margin-right: 60px;
+    margin-left: 70px;
+}
+nav a:hover{
+    color:white;
+}
+
+.cuerpo {
+    color: black;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+.texto{
+    background-color: white;
+        display: flex;
+        font-size: x-large;
+        margin-right: 100px;
+        margin-left: 100px;
+        padding: 10px;
+    }
+    .nombre{
+        background-color: black;
+        text-align: center;
+        color: white;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }

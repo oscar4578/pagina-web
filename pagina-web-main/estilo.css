@@ -1,0 +1,128 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background: url(Fondo.jpg);
+    background-size: cover;
+    background-position: top;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+    
+}
+
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #696969;
+    padding: 5px;
+    
+   }
+.logo{
+    display: flex;
+    align-items:center ;
+    
+}
+.logo img{
+    height: 70px; 
+    margin-right: 10px; 
+}
+nav a{
+    padding: 10px; 
+    margin-right: 60px;
+    margin-left: 70px;
+}
+nav a:hover{
+    color:white;
+}
+
+ /*PRODUCTOS*/
+ 
+ .conte{
+     height: 500px;
+     width: 25%;
+     box-shadow:0 0 7px #111;
+     margin: 50px 30px;
+     box-shadow: 7px 13px 37px #000;
+    
+ }
+ .conte .card{
+     height: 200px;
+     width: 100%;
+     margin-bottom: 170px;
+     box-shadow: 7px 13px 37px #000;
+ }
+ .card img{
+     margin: auto;
+     display: block;
+ }
+ .conte .corona img{
+     height: 330px;
+     width: 330px;
+ }
+ .conte .corona{
+     background-color: #fff;
+ }
+ .conte .indio img{
+    height: 330px;
+    width: 330px;
+ }
+ .conte .indio{
+     background-color: #fff;
+ }
+ .conte .modelo img{
+    height: 330px;
+    width: 330px;
+    
+ }
+ .conte .modelo{
+     background-color: #fff;
+ }
+ .conte .sol img{
+    height: 330px;
+    width: 330px;
+ } 
+ .conte .sol{
+     background-color: #fff;
+ }
+ .informacion{
+     height: 80px;
+     width: 100%;
+ }
+ .informacion h1{
+     font-family: sans-serif;
+     font-size: 1.2em;
+     text-align: center;
+     color: black;
+     margin-bottom: -10px;
+ }
+ .informacion h3{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: grey;
+    margin-bottom: -10px;
+ }
+ 
+ .precio{
+     height: 50px;
+     width: 85%;
+     margin: auto;
+     font-family: sans-serif;
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     align-items: center;
+ }
+ .precio1{
+     color: black;
+     text-align: center;
+ }
+ 

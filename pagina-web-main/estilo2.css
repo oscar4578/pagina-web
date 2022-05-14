@@ -1,0 +1,88 @@
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background: url(Fondo.jpg);
+    background-size: cover;
+    background-position: top;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+    
+}
+
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #696969;
+    padding: 5px;
+    
+   }
+.logo{
+    display: flex;
+    align-items:center ;
+    
+}
+.logo img{
+    height: 70px; 
+    margin-right: 10px; 
+}
+nav a{
+    padding: 10px; 
+    margin-right: 60px;
+    margin-left: 70px;
+}
+nav a:hover{
+    color:white;
+}
+section a:hover{
+color: red;
+}
+
+.formulario{
+width: 400px;
+background: gray;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+box-shadow: 7px 13px 37px #000;
+}
+.usuario img{
+width: 80px;
+height: 80px;
+display: block;
+padding-left: 160px;
+
+}
+.control{
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 4px;
+    border: white;
+}
+.formulario p{
+    height: 40px;
+    text-align: center;
+}
+.formulario .botones{
+    width: 80%;
+    padding: 15px;
+    margin-left: 50px ;
+    font-size: x-large;
+    background-color: chartreuse;
+    border: white;
+    border-radius: 6px;
+    text-align: center;
+    align-items: center;
+}
